@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">七安备忘</string>
+    <string name="memo_list">备忘录</string>
+    <string name="shopping_list">购物清单</string>
+    <string name="profile">我的</string>
+    <string name="search">搜索</string>
+    <string name="trash">回收站</string>
+    <string name="sync_status">同步状态</string>
+    <string name="about">关于</string>
+    <string name="logout">退出登录</string>
+    <string name="new_memo">新建备忘录</string>
+    <string name="add_item">添加商品</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="restore">恢复</string>
+    <string name="empty_trash">清空回收站</string>
+    <string name="synced">已同步</string>
+    <string name="unsynced">未同步</string>
+</resources>

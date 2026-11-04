@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ---- 调试产物 / 临时文件（不入库）----
+# 注意：test_shots/ 里含数据库文件拷贝（bw.db / bei.db 等），绝不能进版本库
+/test_shots/
+_removed_orphans/
+_probe.lock
+*.log
+build*.log
+screenshot*.png
+ChatGPT Image*.png
+.run/
+.kotlin/

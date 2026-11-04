@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 与 data_extraction_rules.xml（API 31+）保持一致：整包排除 root domain，
+     避免数据库/附件等明文数据被云备份或换机传输带走（此前为空规则 = 全部明文上传）。 -->
+<full-backup-content>
+    <exclude domain="root" />
+</full-backup-content>

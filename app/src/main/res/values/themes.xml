@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Beiwang" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/purple_500</item>
+        <item name="android:colorAccent">@color/purple_700</item>
+    </style>
+
+    <!-- 编辑备忘录对话框：以对话框形式盖在桌面组件上方，外观接近"在插件内编辑" -->
+    <style name="Theme.Beiwang.Dialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/purple_700</item>
+        <item name="android:windowMinWidthMajor">92%</item>
+        <item name="android:windowMinWidthMinor">92%</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <!-- 桌面组件桥接 Activity：完全透明、无感，仅用于在进程内处理组件点击并刷新 -->
+    <style name="Theme.Transparent" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

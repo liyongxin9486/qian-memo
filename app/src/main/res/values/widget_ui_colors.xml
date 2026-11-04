@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="w_text_primary">#FF212121</color>
+    <color name="w_text_secondary">#FF616161</color>
+    <color name="w_text_hint">#FF9E9E9E</color>
+    <color name="w_accent">#FF1976D2</color>
+    <color name="w_tab_bg">#FFECEFF1</color>
+    <color name="w_divider">#FFE0E0E0</color>
+</resources>
